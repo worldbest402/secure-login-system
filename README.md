@@ -37,7 +37,7 @@ The application incorporates several controls to address common authentication a
 
 ### 1. Input Validation
 
-![Input validation demonstration](screenshots/01-input-validation.png)
+![Input validation demonstration](screenshots/input-validation.png)
 
 The login form rejects incorrectly formatted email addresses, including the SQL injection-style input shown above.
 
