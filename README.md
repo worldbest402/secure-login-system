@@ -45,13 +45,13 @@ This screenshot demonstrates browser-side email validation. SQL injection mitiga
 
 ### 2. Successful Authentication
 
-![Successful authentication](screenshots/02-successful-login.png)
+![Successful authentication](screenshots/successful-login.png)
 
 After successful authentication, users can access the protected dashboard. Session checks restrict access to authenticated users.
 
 ### 3. Invalid Login Handling
 
-![Invalid login attempt](screenshots/03-invalid-login.png)
+![Invalid login attempt](screenshots/invalid-login.png)
 
 The application returns a generic error message when incorrect login credentials are submitted.
 
@@ -63,7 +63,7 @@ Security testing was an important part of the project. I evaluated the applicati
 
 ### 4. Static Code Analysis — Bandit
 
-![Bandit security scan](screenshots/04-bandit-scan.png)
+![Bandit security scan](screenshots/bandit-scan.png)
 
 Bandit was used to analyse the Python application files for common security issues.
 
@@ -73,7 +73,7 @@ This result reflects the scope of that scan and does not guarantee that the appl
 
 ### 5. Dynamic Application Testing — OWASP ZAP
 
-![OWASP ZAP testing](screenshots/05-owasp-zap-testing.png)
+![OWASP ZAP testing](screenshots/owasp-zap-testing.png)
 
 OWASP ZAP Manual Explore was used to inspect application traffic, including HTTP requests and responses during authentication workflows.
 
