@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Dashboard</h2>
+<p>Welcome! You are logged in.</p>
+<button onclick="window.location.href='{{ url_for('logout') }}'">Logout</button>
+{% endblock %}
